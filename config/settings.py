@@ -94,6 +94,7 @@ else:
             'USER': env("DB_USER"),
             'PASSWORD': env("DB_PASSWORD"),
             'PORT': env("DB_PORT"),
+            'HOST': env("DB_HOST"),
         }
     }
 
